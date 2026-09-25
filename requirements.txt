@@ -1,0 +1,16 @@
+# Core
+streamlit>=1.32
+pandas
+plotly
+
+# Person 1 (fragment recovery) -- stdlib only, nothing extra needed
+
+# Person 2 (integrity assessment)
+Pillow
+pypdf
+
+# Person 3 (classification / AI layer)
+scikit-learn
+# Optional upgrade for better AI classification (bigger download,
+# only add if you have time/bandwidth during the hackathon):
+# sentence-transformers
